@@ -3,7 +3,8 @@
     font-size: 12px;
 }
 
-h1 {
+/* title */
+h1 { 
     font-size: 32px;
     text-align: left;
     margin-left: 40px;
@@ -15,12 +16,13 @@ h1:hover {
     -webkit-text-fill-color: transparent;
 }
 
+/* subtitle */
 h2 {
     font-size: 24px;
     text-align: left;
 }
 
-
+/* recipe buttons */
 #buttons li {
     list-style: none;
     background-color: black;
@@ -45,3 +47,9 @@ h2 {
     background-color: rgb(199, 162, 140);
     border-radius: 20px;
   }
+
+img {
+    width: 480px;
+    height: auto;
+    border-radius: 20px;
+}
